@@ -10,7 +10,7 @@ def index(request):
         "current_day": datetime.now().strftime('%A'),
         "utc_time": datetime.now(timezone.utc),
         "track": request.GET['track'],
-        "github_file_url": "good",
+        "github_file_url": "https://github.com/jerry11671/hng_task_one/tree/main/core/view.py",
         "github_repo_url": "https://github.com/jerry11671/hng_task_one.git",
         "status_code": 200
     }
